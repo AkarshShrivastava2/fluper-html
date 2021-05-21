@@ -457,6 +457,30 @@ img{
     }
 }
 @media (max-width:400px){
+    .one{
+        height: auto;
+    }
+    .angle-l{
+        top: 30%;
+    }
+    .angle-r{
+        top: 30%;
+    }
+    .section-idea{
+        height: auto;
+    }
+    .section-3{
+        height: auto;
+    }
+    .section-3 div{
+        height: auto;
+    }
+    .section-4{
+        height: auto;
+    }
+    .section-5{
+        height: auto;
+    }
     .btn{
         font-size: 0.8rem;
     }
@@ -499,4 +523,16 @@ img{
     .ability{
         width: 60%;
     }
+    .ability-{
+        width: 80%;
+        text-align: center;
+    }
+    .wrap{
+        margin-bottom: 0.5rem;
+    }
+    .awe{
+        margin: 0 0.5rem 0.3rem 0.5rem;
+    }
+
+    
 }
