@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    height: 98vh;
+}
+.angle-l{
+    border-radius: 15px;
+    background-color:white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 49vh;
+    left: 1rem;
+}
+.angle-r{
+    border-radius: 15px;
+    background-color:white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 49vh;
+    right: 1rem;
+}
+.left{
+    position: absolute;
+    left: 0.5rem;
+    font-size: 3rem;
+    z-index: 100;
+}
+.right{
+    position: absolute;
+    right: 0.5rem;
+    font-size: 3rem;
+    z-index: 100;
+}
+.section-img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.one-text{
+    color: white;
+    font-size: 3rem;
+    z-index: 200;
+    position: absolute;
+    top: 75vh;
+    left: 10%;
+    text-shadow: .5rem 1rem 1rem rgba(0,0,0,.8);
+}
+.section-idea{
+    height: 57vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.section-idea-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-idea-1 h1{
+    font-size: 3rem;
+    letter-spacing: .15rem;
+}
+.btn{
+    background: crimson;
+    color: white;
+    border-radius: .6rem;
+    padding: .8rem;
+    margin-top: 2rem;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-idea-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-idea-2 h2{
+    font-size: 2rem;
+}
+.section-idea-2 h4{
+    color: tomato;
+    position: absolute;
+    top: 3rem;
+    font-size: 1.5rem;
+}
+.sub-section{
+    display: flex;
+    flex-direction: row;
+}
+.sub-section div{
+    width: 80%;
+}
+.sub-section h3{
+    margin-bottom: 1.2rem;
+}
+.sub-section div p{
+    letter-spacing: .1rem;
+}
+.awe{
+    font-size: 3rem;
+    margin: 0 1rem 1.5rem 1rem;
+    color: blueviolet;
+}
+.section-3{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    padding: 4rem 0;
+    flex-direction: row;
+}
+.section-3 div{
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+.section-3-2{
+    background: rgb(231, 229, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-2 p{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-3-4{
+    background: rgb(231, 229, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-4 p{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-4{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-4 h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-4 div p{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+.section-4-{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.section-4-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section-4-3 i{
+    font-size: 3rem;
+    color: blueviolet;
+}
+.big{
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.small{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-5{
+    height: 80vh;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.deliver{
+    width: 50%;
+    height: 100%;
+}
+.ability{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.ability h1{
+    font-size: 3rem;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.wrap-{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.des{
+    display: flex;
+    flex-direction: row;
+}
+.des-text{
+    font-size: 1.5rem;
+}
+.des-{
+    width: 80%;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+@media (max-width:1280px) {
+   .section-idea{
+       padding: 1.5rem;
+   }
+   .section-idea-2{
+       width: 40%;
+   }
+   .section-idea-2 h4{
+       top: 1rem;
+   }
+   .section-3{
+       padding: 2rem 0;
+   }
+    .section-4{
+        padding: 1rem;
+    }
+    .ability h1{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:1024px){
+    .one-text{
+        font-size: 2.7rem;
+    }
+    .section-idea-1 h1{
+        letter-spacing: 0;
+        font-size: 2.7rem;
+    }
+    .big{
+        font-size: 3rem;
+    }
+    .ability h1{
+        font-size: 2.2rem;
+    }
+    .awe{
+        font-size: 2.3rem;
+    }
+    .section-4 h1{
+        font-size: 3.5rem;
+    }
+    .wrap{
+        width: 84%;
+    }
+    .section-3-2 p{
+        font-size: 2rem;
+    }
+    .section-3-4 p{
+        font-size: 2rem;
+    }
+    .des-{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .section-4-3 i{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:784px){
+    .one-text{
+        font-size: 2.2rem;
+    }
+    .section-idea-1 h1{
+        letter-spacing: 0;
+        font-size: 2.3rem;
+    }
+    .deliver{
+        width: 45%;
+    }
+    .ability{
+        width:55%
+    }
+    .awe{
+        font-size: 2rem;
+    }
+    .section-idea-2{
+        width: 55%;
+        margin-left: 1rem;
+        height: 55vh;
+    }
+    .des-text{
+        font-size: 1.2rem;
+    }
+    .section-3-2 p{
+        font-size: 1.5rem;
+    }
+    .section-3-4 p{
+        font-size: 1.5rem;
+    }
+    .sub-section div p{
+        letter-spacing: 0;
+    }
+    .btn{
+        padding: .6rem;
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .section-4-{
+        width: 76%;
+    }
+    .section-4 h1{
+        font-size: 2.5rem;
+    }
+    .section-4-3 i{
+        font-size: 2rem;
+    }
+    .big{
+        font-size: 2.5rem;
+    }
+    
+    .section-4 div p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:600px){
+    .one-text{
+        font-size: 1.9rem;
+    }
+    .section-idea{
+        height: 50vh;
+    }
+    .section-idea-1{
+        width: 40%;
+    }
+    .section-idea-1 h1{
+        font-size: 1.5rem;
+    }
+    .section-idea-2 {
+        width: 60%;
+        height: 40vh;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .des-text {
+        font-size: .8rem;
+    }
+    .sub-section h3 {
+        margin-bottom: 0.8rem;
+    }
+    .awe{
+        font-size: 1.5rem;
+    }
+    .section-idea-2 h4{
+        font-size: 0.8rem;
+    }
+    .section-idea-2 h2{
+        font-size: 1.3rem;
+    }
+    .section-3{
+        height: 45vh;
+    }
+    .section-3-2 p{
+        font-size: 1rem;
+    }
+    .section-3-4 p {
+        font-size: 1rem;
+    }
+    .section-4- {
+        width: 85%;
+    }
+    .section-4 h1 {
+        font-size: 2rem;
+    }
+    .section-4 div p {
+        font-size: 1rem;
+    }
+    .section-4-3 i {
+        font-size: 1.5rem;
+    }
+    .big{
+        font-size: 2rem;
+    }
+    .small{
+        font-size: 1rem;
+    }
+    .section-5{
+        height: 55vh;
+    }
+    .ability h1 {
+        font-size: 1.5rem;
+    }
+    .des- {
+        font-size: 0.8rem;
+    }
+    .awe {
+        font-size: 1rem;
+        margin: 0 0.7rem 1rem 0.7rem;
+    }
+    .deliver {
+        width: 42%;
+    }
+    .ability{
+        width: 58%;
+    }
+    .btn{
+        font-size: 0.8rem;
+    }
+    .one-text {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:400px){
+    .btn{
+        font-size: 0.8rem;
+    }
+    .section-idea {
+        height: 40vh;
+    }
+    .section-3-4 p {
+        font-size: 0.8rem;
+    }
+    .section-3-2 p {
+        font-size: 0.8rem;
+    }
+    .section-4- {
+        width: 90%;
+    }
+    .ability h1 {
+        font-size: 1.2rem;
+    }
+    .big {
+        font-size: 1.5rem;
+    }
+    .small{
+        font-size: 0.9rem;
+    }
+    .section-idea-2 h2 {
+        font-size: 1.1rem;
+    }
+    .section-idea-1 h1 {
+        font-size: 1.3rem;
+    }
+    .one-text {
+        font-size: 1.3rem;
+    }
+    .section-5 {
+        height: 50vh;
+    }
+    .deliver {
+        width: 40%;
+    }
+    .ability{
+        width: 60%;
+    }
+}
